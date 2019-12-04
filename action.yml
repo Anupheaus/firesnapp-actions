@@ -1,0 +1,30 @@
+name: firesnapp-actions
+description: This action builds and deploys this repository to the Google Play store automatically.
+inputs:
+  cordovaVersion:
+    description: The version of the cordova platform you want to use to build this repository.
+    required: false
+    default: 8.0.0
+  cordovaAndroidPlatformVersion:
+    description: The version of the cordova android platform you want to use to build this repository.
+    required: false
+    default: 8.0.0
+  androidBuildToolsVersion:
+    description: The version of the android build tools to be installed and used.
+    required: false
+    default: 28.0.3
+  androidVersion:
+    description: The version of android to be installed and used.
+    required: false
+    default: 27
+  logLevel:
+    description: The log level of the build and deploy process.
+    required: false
+    default: info
+  shellCommandStdoutMaxLines:
+    description: The maximum number of lines to show from a shell command stdout stream (maximum 500).
+    required: false
+    default: 100
+runs:
+  using: 'node12'
+  main: './index.js'

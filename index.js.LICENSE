@@ -1,0 +1,350 @@
+/*! *****************************************************************************
+Copyright (c) Microsoft Corporation. All rights reserved.
+Licensed under the Apache License, Version 2.0 (the "License"); you may not use
+this file except in compliance with the License. You may obtain a copy of the
+License at http://www.apache.org/licenses/LICENSE-2.0
+
+THIS CODE IS PROVIDED ON AN *AS IS* BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY
+KIND, EITHER EXPRESS OR IMPLIED, INCLUDING WITHOUT LIMITATION ANY IMPLIED
+WARRANTIES OR CONDITIONS OF TITLE, FITNESS FOR A PARTICULAR PURPOSE,
+MERCHANTABLITY OR NON-INFRINGEMENT.
+
+See the Apache Version 2.0 License for specific language governing permissions
+and limitations under the License.
+***************************************************************************** */
+
+/*!****************************************************!*\
+  !*** ./src/cancellationToken/cancellationToken.ts ***!
+  \****************************************************/
+
+/*! no static exports found */
+
+/*! tslib */
+
+/*! ../decorators */
+
+/*!****************************************!*\
+  !*** ./src/cancellationToken/index.ts ***!
+  \****************************************/
+
+/*! ./cancellationToken */
+
+/*!********************************!*\
+  !*** ./src/decorators/bind.ts ***!
+  \********************************/
+
+/*!*********************************!*\
+  !*** ./src/decorators/index.ts ***!
+  \*********************************/
+
+/*! ./bind */
+
+/*!***************************************!*\
+  !*** ./src/errors/argumentInvalid.ts ***!
+  \***************************************/
+
+/*! ./base */
+
+/*!****************************!*\
+  !*** ./src/errors/base.ts ***!
+  \****************************/
+
+/*!*****************************!*\
+  !*** ./src/errors/index.ts ***!
+  \*****************************/
+
+/*! ./internal */
+
+/*! ./argumentInvalid */
+
+/*! ./notImplemented */
+
+/*! ./validationError */
+
+/*! ./security */
+
+/*! ./objectDisposed */
+
+/*!********************************!*\
+  !*** ./src/errors/internal.ts ***!
+  \********************************/
+
+/*!**************************************!*\
+  !*** ./src/errors/notImplemented.ts ***!
+  \**************************************/
+
+/*!**************************************!*\
+  !*** ./src/errors/objectDisposed.ts ***!
+  \**************************************/
+
+/*!********************************!*\
+  !*** ./src/errors/security.ts ***!
+  \********************************/
+
+/*!***************************************!*\
+  !*** ./src/errors/validationError.ts ***!
+  \***************************************/
+
+/*!***********************************!*\
+  !*** ./src/events/createEvent.ts ***!
+  \***********************************/
+
+/*! ../extensions/array */
+
+/*! ../errors/objectDisposed */
+
+/*! ../errors */
+
+/*!***************************************************!*\
+  !*** ./src/events/createEventUnsubscribeCache.ts ***!
+  \***************************************************/
+
+/*!*****************************!*\
+  !*** ./src/events/index.ts ***!
+  \*****************************/
+
+/*! ./createEvent */
+
+/*! ./createEventUnsubscribeCache */
+
+/*!*********************************!*\
+  !*** ./src/extensions/array.ts ***!
+  \*********************************/
+
+/*! ./arrayExtensions */
+
+/*!*******************************************!*\
+  !*** ./src/extensions/arrayExtensions.ts ***!
+  \*******************************************/
+
+/*! ./object */
+
+/*! ../models */
+
+/*! ../models/sort */
+
+/*! ./reflect */
+
+/*!********************************!*\
+  !*** ./src/extensions/date.ts ***!
+  \********************************/
+
+/*! moment */
+
+/*! moment/locale/en-gb */
+
+/*!************************************!*\
+  !*** ./src/extensions/function.ts ***!
+  \************************************/
+
+/*! ./array */
+
+/*!*********************************!*\
+  !*** ./src/extensions/index.ts ***!
+  \*********************************/
+
+/*! datejs */
+
+/*! ./date */
+
+/*! ./function */
+
+/*! ./math */
+
+/*! ./promise */
+
+/*! ./string */
+
+/*! ./is */
+
+/*! ./to */
+
+/*!******************************!*\
+  !*** ./src/extensions/is.ts ***!
+  \******************************/
+
+/*!********************************!*\
+  !*** ./src/extensions/math.ts ***!
+  \********************************/
+
+/*! ./mathExtensions */
+
+/*!******************************************!*\
+  !*** ./src/extensions/mathExtensions.ts ***!
+  \******************************************/
+
+/*! uuid/v4 */
+
+/*!**********************************!*\
+  !*** ./src/extensions/object.ts ***!
+  \**********************************/
+
+/*! ./utils */
+
+/*!***********************************!*\
+  !*** ./src/extensions/promise.ts ***!
+  \***********************************/
+
+/*!***********************************!*\
+  !*** ./src/extensions/reflect.ts ***!
+  \***********************************/
+
+/*! fast-equals */
+
+/*!**********************************!*\
+  !*** ./src/extensions/string.ts ***!
+  \**********************************/
+
+/*! ./stringExtensions */
+
+/*!********************************************!*\
+  !*** ./src/extensions/stringExtensions.ts ***!
+  \********************************************/
+
+/*!******************************!*\
+  !*** ./src/extensions/to.ts ***!
+  \******************************/
+
+/*! numeral */
+
+/*!*********************************!*\
+  !*** ./src/extensions/utils.ts ***!
+  \*********************************/
+
+/*!**********************!*\
+  !*** ./src/index.ts ***!
+  \**********************/
+
+/*! ./extensions */
+
+/*! ./decorators */
+
+/*! ./models */
+
+/*! ./errors */
+
+/*! ./events */
+
+/*! ./settings */
+
+/*! ./wrappers */
+
+/*!***********************************!*\
+  !*** ./src/models/array/index.ts ***!
+  \***********************************/
+
+/*! ./mergeOptions */
+
+/*!******************************************!*\
+  !*** ./src/models/array/mergeOptions.ts ***!
+  \******************************************/
+
+/*!***********************************!*\
+  !*** ./src/models/dates/index.ts ***!
+  \***********************************/
+
+/*! ./timeUnits */
+
+/*!***************************************!*\
+  !*** ./src/models/dates/timeUnits.ts ***!
+  \***************************************/
+
+/*! ../../errors */
+
+/*!*****************************!*\
+  !*** ./src/models/index.ts ***!
+  \*****************************/
+
+/*! ./sort */
+
+/*! ./dates */
+
+/*!***************************************!*\
+  !*** ./src/models/sort/directions.ts ***!
+  \***************************************/
+
+/*!**********************************!*\
+  !*** ./src/models/sort/index.ts ***!
+  \**********************************/
+
+/*! ./directions */
+
+/*!****************************************!*\
+  !*** ./src/settings/createSettings.ts ***!
+  \****************************************/
+
+/*! ../extensions */
+
+/*!*******************************!*\
+  !*** ./src/settings/index.ts ***!
+  \*******************************/
+
+/*! ./createSettings */
+
+/*!*******************************!*\
+  !*** ./src/wrappers/index.ts ***!
+  \*******************************/
+
+/*! ./repeatOnError */
+
+/*!***************************************!*\
+  !*** ./src/wrappers/repeatOnError.ts ***!
+  \***************************************/
+
+/*! ../extensions/is */
+
+/*!*************************!*\
+  !*** external "datejs" ***!
+  \*************************/
+
+/*!******************************!*\
+  !*** external "fast-equals" ***!
+  \******************************/
+
+/*!*************************!*\
+  !*** external "moment" ***!
+  \*************************/
+
+/*!**************************************!*\
+  !*** external "moment/locale/en-gb" ***!
+  \**************************************/
+
+/*!**************************!*\
+  !*** external "numeral" ***!
+  \**************************/
+
+/*!************************!*\
+  !*** external "tslib" ***!
+  \************************/
+
+/*!**************************!*\
+  !*** external "uuid/v4" ***!
+  \**************************/
+
+/*! @preserve
+ * numeral.js
+ * version : 2.0.6
+ * author : Adam Draper
+ * license : MIT
+ * http://adamwdraper.github.com/Numeral-js/
+ */
+
+/*!
+ * Determine if an object is a Buffer
+ *
+ * @author   Feross Aboukhadijeh <https://feross.org>
+ * @license  MIT
+ */
+
+/*!
+ * mime-types
+ * Copyright(c) 2014 Jonathan Ong
+ * Copyright(c) 2015 Douglas Christopher Wilson
+ * MIT Licensed
+ */
+
+/*!
+ * mime-db
+ * Copyright(c) 2014 Jonathan Ong
+ * MIT Licensed
+ */
